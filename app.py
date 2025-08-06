@@ -83,4 +83,13 @@ if __name__ == "__main__":
         fn=chat,
         title="Zazi iZandi Bot",
         description="Ask anything about the 2023, 2024, or 2025 literacy programme data.",
+        examples=[
+            "What type of impact has the programme had?",
+            "How did the children perform in 2024?", 
+            "Why does teaching letter sounds matter?",
+            "What are the reading benchmarks in South Africa?",
+            "What percentage of Grade 1 children can read at grade level?",
+            "How does Zazi iZandi compare to national reading performance?",
+            "How can I get in touch and learn more about the programme?"
+        ],
         ).launch()

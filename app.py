@@ -81,8 +81,6 @@ def chat(message, history):
 if __name__ == "__main__":
         gr.ChatInterface(
         fn=chat,
-        title="Zazi iZandi Bot",
-        description="Ask anything about the 2023, 2024, or 2025 literacy programme data.",
         examples=[
             "What type of impact has the programme had?",
             "How did the children perform in 2024?", 
@@ -92,4 +90,5 @@ if __name__ == "__main__":
             "How does Zazi iZandi compare to national reading performance?",
             "How can I get in touch and learn more about the programme?"
         ],
+        cache_examples=False,
         ).launch()

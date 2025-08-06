@@ -1,0 +1,15 @@
+pandas
+plotly
+numpy
+matplotlib
+openpyxl
+pdfkit
+wkhtmltopdf
+streamlit-authenticator
+openai
+python-dotenv
+psycopg2-binary
+sqlalchemy
+sendgrid
+openai-agents
+gradio

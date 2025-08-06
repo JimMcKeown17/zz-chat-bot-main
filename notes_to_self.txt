@@ -1,0 +1,4 @@
+Need to create API endpoints via ZZ website.
+Then pull in the data via them.
+Probably should refactor streamlit to pull the same.
+Add a simple Q&A Rag

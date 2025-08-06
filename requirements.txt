@@ -4,7 +4,6 @@ numpy
 matplotlib
 openpyxl
 pdfkit
-wkhtmltopdf
 streamlit-authenticator
 openai
 python-dotenv

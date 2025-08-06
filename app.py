@@ -82,13 +82,10 @@ if __name__ == "__main__":
         gr.ChatInterface(
         fn=chat,
         examples=[
-            "What type of impact has the programme had?",
+            "What type of results has the programme had?",
             "How did the children perform in 2024?", 
             "Why does teaching letter sounds matter?",
-            "What are the reading benchmarks in South Africa?",
-            "What percentage of Grade 1 children can read at grade level?",
             "How does Zazi iZandi compare to national reading performance?",
-            "How can I get in touch and learn more about the programme?"
         ],
         cache_examples=False,
         ).launch()
